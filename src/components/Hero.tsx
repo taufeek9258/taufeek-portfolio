@@ -58,10 +58,10 @@ const Hero: React.FC<HeroProps> = ({ darkMode }) => {
     }`}>
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col lg:flex-row items-center justify-between">
-          <div className="lg:w-1/2 text-center lg:text-left mb-8 lg:mb-0" data-aos="fade-right">
+          <div className="lg:w-1/2 text-center lg:text-left mb-8 lg:mb-0" data-aos="fade-right" data-aos-duration="1200">
             <h1 className={`text-4xl md:text-6xl lg:text-7xl font-bold mb-6 ${
               darkMode ? 'text-white' : 'text-gray-900'
-            }`}>
+            } animate-gradient bg-gradient-to-r from-[#33ffbe] via-[#ca321a] to-[#33ffbe] bg-clip-text text-transparent`}>
               Hi, I'm <span className="text-[#33ffbe]">Arbaz Khan</span>
             </h1>
             <p className={`text-xl md:text-2xl mb-8 ${
@@ -78,7 +78,7 @@ const Hero: React.FC<HeroProps> = ({ darkMode }) => {
               <ArrowDown className="ml-2 w-5 h-5" />
             </button>
           </div>
-          <div className="lg:w-1/2 flex justify-center" data-aos="fade-left">
+          <div className="lg:w-1/2 flex justify-center" data-aos="fade-left" data-aos-duration="1200">
             <div ref={imageRef} className="relative">
               <div className="w-80 h-80 rounded-full overflow-hidden shadow-2xl border-4 border-[#33ffbe]">
                 <img

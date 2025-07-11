@@ -8,7 +8,9 @@ const Footer = () => {
 
   return (
     <footer 
-      className="py-8 px-4 border-t"
+      data-aos="fade-up"
+      data-aos-duration="1200"
+      className="py-8 px-4 border-t transition-all duration-700 opacity-0 translate-y-8 aos-animate:opacity-100 aos-animate:translate-y-0"
       style={{
         background: `${colors.glass}`,
         backdropFilter: 'blur(20px)',

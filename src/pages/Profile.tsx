@@ -7,7 +7,7 @@ const Profile: React.FC = () => {
   const colors = getThemeColors();
 
   const profileData = {
-    name: 'Taufeek Ahmad',
+    name: 'taufeek',
     title: 'Full Stack Developer',
     location: 'Bareilly, India',
     email: 'mtaufeeq333@gmail.com',
@@ -67,7 +67,7 @@ const Profile: React.FC = () => {
           <div className="flex flex-col md:flex-row items-center md:items-start gap-8">
             <div className="w-32 h-32 rounded-full overflow-hidden shadow-lg">
               <img
-                src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=300"
+                src="/tsufeek.jpg"
                 alt="Profile"
                 className="w-full h-full object-cover"
                 onError={(e) => {
